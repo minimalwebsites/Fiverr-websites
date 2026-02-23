@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Bloom Café</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Bloom Café</div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <button id="darkToggle">🌙</button>
+        </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bloom Café</h1>
+    <p>Fresh coffee, cozy vibes</p>
+    <a href="menu.html" class="btn">View Menu</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Our Story</h2>
+    <p>
+        Bloom Café is a cozy spot where quality coffee meets minimalist 
+        design. We believe in simple pleasures and unforgettable flavor.
+    </p>
+  </section>
+
+  <section id="featured" class="section alt">
+    <h2>Featured Drinks & Snacks</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="images/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Classic espresso with steamed milk.</p>
+            <span class="price">$4</span>
+        </div>
+
+        <div class="card">
+            <img src="images/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Smooth and creamy, your daily boost</p>
+            <span class="price">$4.5</span>
+        </div>
+
+        <div class="card">
+            <img src="images/croissant.jpg" alt="Croissant">
+            <h3>Croissant</h3>
+            <p>Flaky, buttery, freshly baked</p>
+            <span class="price">$3</span>
+        </div>
+
+        <div class="card">
+            <img src="images/smoothie.jpg" alt="Smoothie">
+            <h3>Smoothie</h3>
+            <p>Fresh fruit blend with a creamy texture and natural sweetness.</p>
+            <span class="price">$5</span>
+        </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>What We Offer</h2>
+
+    <div class="services">
+        <span>Coffee & Tea</span>
+        <span>Pastries</span>
+        <span>Takeaway / Delivery</span>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section alt">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+            <p>“The cappuccino is heavenly! Cozy and stylish café.”</p>
+            <span>- Emma K.</span>
+            </div>
+            <div class="testimonial-card">
+            <p>“I love the ambiance and the pastries are perfect!”</p>
+            <span>- Mia L.</span>
+            </div>
+        </div>
+    </section>
+
+  <section id="contact" class="section alt">
+    <h2>Reserve a Table</h2>
+    <p>Send us a message and we’ll confirm your reservation!</p>
+    <form>
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" placeholder="Date" required>
+      <textarea placeholder="Message"></textarea>
+      <button class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Bloom Café · Address: 123 Cozy St, City · Hours: Mon-Sun 8AM–8PM</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
